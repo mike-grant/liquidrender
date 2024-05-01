@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liquid Template Renderer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="input-section">
+            <textarea id="contextInput" placeholder="Enter context as JSON..."></textarea>
+            <textarea id="templateInput" placeholder="Enter Liquid template..."></textarea>
+        </div>
+        <div class="output-section">
+            <div id="output"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/liquidjs@9/dist/liquid.browser.min.js" defer></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>

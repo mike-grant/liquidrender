@@ -1,0 +1,36 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.input-section,
+.output-section {
+    flex: 1;
+    padding: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 45%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: none;
+}
+
+#output {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 93%;
+    /* Adjust based on your layout */
+    overflow-y: auto;
+    background-color: #f9f9f9;
+}
